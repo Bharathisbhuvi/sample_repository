@@ -3,3 +3,15 @@ def add(a,b):
     return res
 
 print(add(10,15))
+def main():
+    print("Hello World")
+main()
+
+
+
+
+
+
+
+
+
