@@ -1,0 +1,10 @@
+pipeline {
+    agent any // Specifies that the Pipeline will run on any available agent
+    stages {
+        stage('Hello') { // Defines a stage named 'Hello'
+            steps {
+                echo 'Hello Jenkins!' // Prints the message 'Hello Jenkins!'
+            }
+        }
+    }
+}
