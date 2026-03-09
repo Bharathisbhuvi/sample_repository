@@ -1,5 +1,9 @@
-def add():
-    a,b=eval(input('Enter 2 numbers: '))
-    print('sum:',a+b)
+def add(a,b):
+    res = a+b
+    return res
 
-add()
+print(add(10,15))
+def main():
+    print("Hello World")
+main()
+
